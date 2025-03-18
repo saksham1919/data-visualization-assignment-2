@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+  }
+  
+  .dashboard-header {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+  
+  .visualization-section {
+    margin-bottom: 40px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin: 0;
+  }
+  
+  .section-controls {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .control-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+  
+  .control-option input {
+    cursor: pointer;
+  }
+  
+  .visualization-container {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    display: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Temperature Analysis Dashboard</title>
+  
+  <!-- D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <header class="dashboard-header">
+      <h1>Climate Temperature Analysis Dashboard</h1>
+    </header>
+    
+    <main>
+      <!-- First Visualization Section -->
+      <section class="visualization-section">
+        <div class="section-header">
+          <h2 class="section-title">Level 1 challenge: Year/Month Heatmap</h2>
+          <div class="section-controls">
+            <label class="control-option">
+              <input type="radio" name="tempType" value="max" checked>
+              Maximum Temperature
+            </label>
+            <label class="control-option">
+              <input type="radio" name="tempType" value="min">
+              Minimum Temperature
+            </label>
+          </div>
+        </div>
+        <div class="visualization-container">
+          <div id="heatmap"></div>
+        </div>
+      
+      </section>
+      
+      <!-- Second Visualization Section -->
+      <section class="visualization-section">
+        <div class="section-header">
+          <h2 class="section-title">Level 2 Challenge: Improvement of the Year/Month Heatmap</h2>
+        </div>
+        <div class="visualization-container">
+          <div id="heatmap2"></div>
+        </div>
+        
+      </section>
+    </main>
+  
+  </div>
+  
+  <!-- Tooltip container -->
+  <div class="tooltip"></div>
+  
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
